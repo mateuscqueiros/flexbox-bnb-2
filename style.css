@@ -22,17 +22,25 @@ body {
 
 .container {
   display: flex;
-  height: 300px;
+  height: 400px;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-start;
   color: white;
   border: 2px solid black;
 }
 
 .item {
   background-color: green;
-  width: 110px;
   text-align: center;
+  flex: 1;
+}
+
+#C {
+  background-color: blue;
+}
+
+div {
+  font-size: 1.5em !important;
 }
 
 .small {
